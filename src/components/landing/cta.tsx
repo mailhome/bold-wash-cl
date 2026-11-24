@@ -27,7 +27,7 @@ export default function Cta() {
             <h1>Ready for Fresh, Clean Clothes?</h1>
           </div>
           <div className="max-w-xs sm:max-w-md lg:max-w-3xl mx-auto text-(--brand-secondary) text-sm sm:text-sm text-center">
-            <p>Schedule your first pickup today and experience why thousands in Port Harcourt trust BulkWash.</p>
+            <p>Schedule your first pickup today and experience why thousands in Port Harcourt trust BoldWash.</p>
           </div>
           <div className="max-w-xs sm:max-w-md lg:max-w-3xl mx-auto flex md:items-center md:justify-center gap-x-5 lg:gap-x-5 md:flex-row mt-4 gap-y-5 flex-col w-full md:w-auto">
             {ctaButton.map(({ label, icon: Icon, href }) => (

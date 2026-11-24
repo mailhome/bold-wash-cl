@@ -2,14 +2,14 @@ import { cn } from "cn";
 import { Star } from "lucide-react";
 import Navbar from "../layout/navbar";
 import { Button } from "../ui/button";
-import { Card, CardContent, CardFooter, CardHeader } from "../ui/card";
+import { Card, CardHeader } from "../ui/card";
 import { Separator } from "../ui/separator";
 import { heroButton, heroList, heroRightItems } from "./data";
 
 
 export default function Hero() {
   return (
-    <section className="w-full relative lg:min-h-[90vh] sm:min-h-[100vh] min-h-[130vh] overflow-hidden">
+    <section className="w-full relative lg:min-h-[90vh] sm:min-h-screen min-h-[130vh] overflow-hidden">
         <img 
             src="/hero.jpg"
             alt="Professional Laundry Service"
@@ -22,13 +22,13 @@ export default function Hero() {
           <div className="flex flex-col lg:items-start lg:justify-start items-center justify-center gap-y-2 lg:gap-y-8">
             <Button variant="ghost" className="flex items-center justify-start text-white border py-2 lg:py-2 lg:h-10 px-4 border-(--brand-secondary) bg-(--brand-primary)/50 rounded-full">
               <div className="bg-(--brand-accent) w-4 h-4 lg:w-2 lg:h-2 rounded-full " />
-              <span className="font-medium text-md ">Aba's Premier Laundr Service</span>
+              <span className="font-medium text-md ">Port Harcourt's Premier Laundry Service</span>
             </Button>
             <div className="text-[26px] lg:text-5xl sm:text-5xl text-white font-semibold text-center lg:text-left pt-5 tracking-wide">
               <h1>We Bring the Freshness. <span className="text-amber-400">You Enjoy the Comfort.</span></h1>
             </div>
             <div className="text-(--brand-secondary) text-sm sm:text-base text-center lg:text-left">
-              <p>Life is busy. Laundry shouldn't make it busier. Let Boldwash handle your laundry with expert care, effortless convenience, and freshness delivered right to your footstep</p>
+              <p>Life is busy. Laundry shouldn't make it busier. Let Boldwash handle your laundry with expert care, effortless convenience, and freshness delivered right to your doorstep</p>
             </div>
             <div className="flex items-start justify-start flex-col w-full lg:items-center lg:justify-start sm:gap-6 gap-2 lg:gap-5 lg:flex-row lg:pt-0 pt-4">
               {heroButton.map(({ icon: Icon, href, label}) => (

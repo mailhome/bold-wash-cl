@@ -37,7 +37,7 @@ export const aboutCtaButton: AboutCtaButtonProps[] = [
 ]
 
 export const aboutfacility: AboutFacility[] = [
-    { label: "2,890+", desc: "Happy Customers in PH"},
+    { label: "2, 890+", desc: "Happy Customers in PH"},
     { label: "26", desc: "Days a Week Service"},
     { label: "24hr", desc: "Express Turnaround"},
     { label: "99%", desc: "On-Time Delivery"},

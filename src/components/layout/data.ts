@@ -67,9 +67,9 @@ export const footerLink: FooterLinksProps[] = [
     {
         heading: "Company", 
         subFooterLinks: [
-            { label: "About Us", href: "/about-us"},
+            { label: "About Us", href: "/about"},
             { label: "Careers", href: "/careers"},
-            { label: "Testimonials", href: "/testimonials"},
+            { label: "Testimonials", href: "/testimonial"},
             { label: "FAQ", href: "/faq"},
             { label: "Contact", href: "/contact"},
             { label: "Book a service", href: "/booking"},

@@ -78,12 +78,12 @@ export default function Footer() {
             <p>&copy; {new Date().getFullYear()} Boldwash Services Nigeria Limited. All rights reserved</p>
           </div>
           <div className="text-neutral-500 text-xs lg:text-md">
-            <p>Operating in Aba, Abia State</p>
+            <p>Operating in Port Harcourt, Rivers State.</p>
           </div>
         </div>
         <Button type="button"
         className=" px-6 py-4 bg z-100 bg-emerald-800 hover:bg-green-800 text-white fixed bottom-8 left-1/2  -translate-x-1/2 rounded-full h-14">
-        <a href="/services/booking" className="flex items-center justify-center gap-2 font-medium text-md lg:text-base" >
+        <a href="/booking" className="flex items-center justify-center gap-2 font-medium text-md lg:text-base" >
           <div className="w-4 h-4 lg:h-8 lg:w-8 flex items-center justify-center rounded-full bg-white/20 p-2">
             <Calendar className="size-5" />
           </div>

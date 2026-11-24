@@ -16,7 +16,7 @@ export const Route = createRootRoute({
         content: "width=device-width, initial-scale=1",
       },
       {
-        title: "TanStack Start Starter",
+        title: "Boldwash | Laundry & Dry Cleaning Pickup & Delivery in Port Harcourt",
       },
     ],
     links: [

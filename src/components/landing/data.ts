@@ -96,7 +96,7 @@ export const howItWorks: HowItWorksProps[] = [
 export const testimonialsItems: TestimonialsItemsProps[] = [
   {
     quote:
-      "Our hotel has been using Boldwash for commercial laundry for 18 months. Their consistency and professionalism is unmatched. Guest satisfaction scores for linen quality have increased significantly.",
+      "Our hotel has been using Boldwash for commercial laundry for 18 months. Their consistency and professionalism are unmatched. Guest satisfaction scores for linen quality have increased significantly.",
     name: "Emeka Nwosu",
     role: "Hotel Manager, Port Harcourt",
     category: "Commercial Bulk",
