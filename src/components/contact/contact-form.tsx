@@ -52,11 +52,11 @@ export default function ContactForm() {
                                 className='text-base placeholder:text-base h-9 px-2 border-slate-200 rounded-sm focus-visible:ring-[#326D51]' 
                                 aria-invalid={field.state.meta.isTouched && !field.state.meta.isValid} 
                                 autoComplete='name'/>
-                                {field.state.meta.isTouched && field.state.meta.errors.length > 0 && (
-                                <p className='text-sm text-red-500'>
-                                    {String(field.state.meta.errors[0])}
+                               {field.state.meta.errors.map((error, index) => (
+                                <p key={index} className='text-sm text-destructive'>
+                                    { typeof error === "string" ? error : error?.message}
                                 </p>
-                            )}
+                            ))}
                         </div>
                     )}
                 </form.Field>
@@ -79,11 +79,11 @@ export default function ContactForm() {
                                 onChange={(e) => field.handleChange(e.target.value)}
                                 aria-invalid={field.state.meta.isTouched && !field.state.meta.isValid} 
                                 autoComplete='name' />
-                                {field.state.meta.isTouched && field.state.meta.errors.length > 0 && (
-                                <p className='text-sm text-red-500'>
-                                    {String(field.state.meta.errors[0])}
+                               {field.state.meta.errors.map((error, index) => (
+                                <p key={index} className='text-sm text-destructive'>
+                                    { typeof error === "string" ? error : error?.message}
                                 </p>
-                            )}
+                            ))}
                             </div>
                         )}
                     </form.Field>
@@ -105,11 +105,11 @@ export default function ContactForm() {
                                 aria-invalid={field.state.meta.isTouched && !field.state.meta.isValid}
                                 autoComplete='name' 
                                 />
-                                {field.state.meta.isTouched && field.state.meta.errors.length > 0 && (
-                                    <p className='text-sm text-red-500'>
-                                    {String(field.state.meta.errors[0])}
-                                     </p>
-                                )  }
+                                {field.state.meta.errors.map((error, index) => (
+                                <p key={index} className='text-sm text-destructive'>
+                                    { typeof error === "string" ? error : error?.message}
+                                </p>
+                            ))}
                             </div>
                         )}
                     </form.Field>
@@ -129,11 +129,11 @@ export default function ContactForm() {
                             onChange={(e) => field.handleChange(e.target.value)} 
                             className='min-h-30 resize-none rounded-md border-slate-200 px-2 py-4  focus-visible:ring-[#326D51]' 
                             aria-invalid={field.state.meta.isTouched && !field.state.meta.isValid} />
-                            {field.state.meta.isTouched && field.state.meta.errors.length > 0 && (
-                                <p className='text-sm text-red-500'>
-                                    {String(field.state.meta.errors[0])}
+                            {field.state.meta.errors.map((error, index) => (
+                                <p key={index} className='text-sm text-destructive'>
+                                    { typeof error === "string" ? error : error?.message}
                                 </p>
-                            )}
+                            ))}
                         </div>
                     )}
                 </form.Field>
