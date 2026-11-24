@@ -82,12 +82,12 @@ export default function Footer() {
           </div>
         </div>
         <Button type="button"
-        className=" md:px-6 md:py-4 px-4 py-2 bg z-100 bg-emerald-800 hover:bg-green-800 text-white fixed bottom-26 right-7 md:bottom-8 md:left-1/2  md:-translate-x-1/2 rounded-full h-14">
+        className=" md:px-6 md:py-4 px-4 py-2 z-100 bg-emerald-800 hover:bg-green-800 text-white fixed bottom-26 right-7 md:right-0 md:bottom-8 md:left-1/2  md:-translate-x-1/2 rounded-full h-14 lg:w-60">
         <a href="/booking" className="flex items-center justify-center gap-2 font-medium text-md lg:text-base" >
-          <div className="w-3 h-4 lg:h-8 lg:w-8 flex items-center justify-center rounded-full bg-white/20 p-3">
+          <div className="w-4 h-4 lg:h-8 lg:w-8 flex items-center justify-center rounded-full bg-white/20 p-3">
             <Calendar className="size-5" />
           </div>
-          <p className="hidden lg:flex">Book up a pickup now</p>
+          <p className="hidden lg:block">Book up a pickup now</p>
         </a>
       </Button>
       </div>
