@@ -60,7 +60,7 @@ export default function Navbar() {
                 </Button>
             </div>
 
-            <div className="lg:hidden flex items-center justify-center">
+            <div className="lg:hidden flex items-center justify-center width-wrapper">
                 <Sheet>
                     <SheetTrigger>
                         <Menu className='text-yellow-500 hover:text-yellow-500' />
