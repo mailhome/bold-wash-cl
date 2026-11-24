@@ -18,8 +18,6 @@ export const navbarLinkItems: NavbarLinkItems[] = [
         {label: "Pick & Delivery", href: "/pick-delivery"},
     ] },
     { heading: 'About', href: "/about" },
-    { heading: 'Careers', href: "/careers" },
-    { heading: 'Testimonial', href: "/testimonial" },
     { heading: 'Contact', href: "/contact" },
 ]
 
